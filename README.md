@@ -1,6 +1,8 @@
 # unicode_poster.py
 A script that generates all Unicode code points and prints them to ``stdout``. Can be used to generate HTML pages which can be printed out into posters.
-This work was made as part of Modifiying The Universal, a workshop and presentation by Femke Snelting, Peggy Pierrot & Roel Roscam Abbing during [*.exe (ver0.2)](http://softwarestudies.projects.cavi.au.dk/index.php/*.exe_%28ver0.2%29) at Malmö University.
+This work was made as part of Modifiying The Universal, a workshop and presentation by Femke Snelting, Peggy Pierrot & Roel Roscam Abbing during [*.exe (ver0.2)](http://softwarestudies.projects.cavi.au.dk/index.php/*.exe_%28ver0.2%29) at Malmö University. April 2016.
+
+![Periodic Unicode table](http://i.imgur.com/5NBEPBr.png)
 
 ##Usage
 To print out all Unicode characters:
@@ -58,3 +60,7 @@ Select your custom paper size, print to file.
 Now you have the PDF of Death, with embedded fonts and characters. 
 
 Flatten it using something like Imagemagick: ``convert death.pdf flattened.pdf``
+
+---
+
+![Printed version of the poster](http://i.imgur.com/RWCOqkK.jpg)
