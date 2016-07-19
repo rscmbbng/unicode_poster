@@ -1,0 +1,56 @@
+.block_header{
+    }
+
+body {
+	font-family: "Noto Color Emoji","Apple Color Emoji","Segoe UI Emoji",Times,Symbola,Aegyptus,MingLiU,Code2000,Code2001,Code2002,Musica,unifont,LastResort;
+	/*width:15000;*/
+	/*height:3300;*/
+	height:44in;
+	width:200in;
+	margin-left: 1in;
+	margin-right: 1in;
+}
+
+table{
+    border: 1px solid black;
+    table-layout: fixed;
+    }
+
+th, td {
+    border: 0px solid black;
+    /*overflow: hidden;*/
+    width: 20px;
+    text-align:center;
+}
+
+.block {
+	color:#d3d3d3;
+	font-size: 22px;
+	/*border:1px solid #d3d3d3;*/
+	padding: 1em;
+	margin:1em;
+	/*display: block;*/
+}
+
+.emoji {
+	color:black;
+}
+
+h1 {
+	font-size: 72px;
+}
+
+h3{
+	font-size: 26px;
+}
+
+div{
+	display: inline;
+	text-decoration: underline;
+}
+
+#wrapper{
+	border: 1px dotted black;
+	padding: 6em;
+
+}
