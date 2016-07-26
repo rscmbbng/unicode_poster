@@ -29,7 +29,7 @@
 #     ./unicode_poster.py -d
 
 #     So to make an HTML page it is sufficient to do the following:
-#     ./unicode_postery.py -H > 
+#     ./unicode_postery.py -H > my_html_poster.html
 
 # GPL3
 # Roel Roscam Abbing 2016, http://roelof.info
@@ -94,13 +94,15 @@ def identify_emoji():
                 if not len(i)==0:
 
                     i=i.strip('\n')
-                    i=i.split('; ')
+                    i=i.replace(' ','')
+                    i=i.split(';')
+
                     ranges = i[0].split('..')
 
                     if len(ranges) < 2:
                         emoji_numbers.append(int(ranges[0],16))
                     else:
-                        for num in range(int(ranges[0],16), int(ranges[1],16)):
+                        for num in range(int(ranges[0],16), int(ranges[1],16)+1):
                             emoji_numbers.append(num)
 
     return set(emoji_numbers)
